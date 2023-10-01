@@ -26,3 +26,24 @@ body {
   margin: 0 auto;
   height: 657px;
 }
+
+
+.top {
+  height: 50px;
+}
+
+.display {
+  background: #DFA46D;
+  max-width: 420px;
+  height: 477px;
+  margin: 0px 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+
