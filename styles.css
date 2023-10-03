@@ -32,10 +32,11 @@ body {
   height: 50px;
 }
 
-.display {
-  background: #DFA46D;
+.mid {
+  background: #E7F6FD;
   max-width: 420px;
   height: 457px;
+  border: solid 10px #DFA46D;
   margin: 0px 8px;
 }
 
@@ -57,5 +58,4 @@ body {
   border: solid 6px #DFA46D;
   box-shadow: 0px 8px 0px #724d50;
 }
-
 
