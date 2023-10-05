@@ -30,21 +30,25 @@ body {
 
 .top {
   height: 50px;
+  
 }
 
 .mid {
-  background: #E7F6FD;
+  background: #CDEDFC;
   max-width: 420px;
   height: 457px;
-  border: solid 10px #DFA46D;
   margin: 0px 8px;
+  box-shadow: 
+    inset 0 0 0 10px #DFA46D,   /* First border */
+    inset 0 0 0 20px #E7F6FD;  /* Second border */
+  background-clip: content-box; 
+  
 }
 
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .button {
@@ -58,4 +62,5 @@ body {
   border: solid 6px #DFA46D;
   box-shadow: 0px 8px 0px #724d50;
 }
+
 
