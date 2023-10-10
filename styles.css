@@ -35,7 +35,7 @@ body {
 .mid {
   background: #CDEDFC;
   max-width: 420px;
-  height: 457px;
+  height: 487px;
   margin: 0px 8px;
   box-shadow: 
     inset 0 0 0 10px #DFA46D,   /* First border */
@@ -52,7 +52,7 @@ body {
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .button {
@@ -89,11 +89,19 @@ body {
   font-size: 40px;
 }
 .sprite {
+  width: 330px;
+  border: solid 8px #9FDCF9;
+  height: 330px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
 .status {
   margin-bottom: 35px;
+  
   max-width: 400px;
   width: 330px;
   max-height: 4em;
