@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #724d50;
 }
 
 body {
   background: #1c1c1c;
   overflow: hidden;
   height: 100vh;
+  font-family: 'VT323', monospace;
 }
 
 .bar {
@@ -70,7 +72,7 @@ body {
   
   padding-top: 30px;
   max-width: 400px;
-  width: 390px;
+  width: 370px;
   height: 100px;
   
   justify-content: space-evenly;
@@ -84,12 +86,23 @@ body {
   
 }
 .number {
-  font-size: 25px;
+  font-size: 40px;
 }
 .sprite {
-
+  
 }
 
 .status {
-
+  margin-bottom: 35px;
+  max-width: 400px;
+  width: 330px;
+  max-height: 4em;
+  height: 60px;
+  background-color: #E7F6FD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  padding: 0;
+  
 }
