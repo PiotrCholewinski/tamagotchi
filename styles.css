@@ -105,15 +105,39 @@ body {
   width: 182px;
   height: 136px;
   background-size: 248px 2082px;
-  background-position: -30px -500px;
+  /*background-position: -30px -500px;*/
   background-image: url("./images/Tamago.png");
   border-bottom: 7px solid white;
-  animation: play 2s steps(2) infinite;
+  animation: play 1s steps(8) infinite;
 }
 
 @keyframes play {
-  to {
-    background-position: -30px -855px;
+  0% {
+      background-position: -30px 0; /* First frame*/
+  }
+  12.5% {
+      background-position: -30px 186px; /* Second frame */
+  }
+  25% {
+      background-position: -30px 360px; /* Third frame */
+  }
+  37.5% {
+      background-position: -30px 470px; /* Fourth frame */
+  }
+  50% {
+      background-position: -30px 665px; /* Fifth frame */
+  }
+  62.5% {
+      background-position: -30px 850px; /* Sixth frame */
+  }
+  75% {
+      background-position: -30px 1187px; /* Seventh frame */
+  }
+  87.5% {
+      background-position: -30px 1380px; /* Eighth frame */
+  }
+  100% {
+      background-position: -30px 1700px; /* Back to the first frame */
   }
 }
 
