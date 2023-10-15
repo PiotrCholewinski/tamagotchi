@@ -104,18 +104,18 @@ body {
   
   width: 182px;
   height: 136px;
+  background-size: 248px 2082px;
   background-position: -30px -500px;
   background-image: url("./images/Tamago.png");
   border-bottom: 7px solid white;
-  
+  animation: play 2s steps(2) infinite;
 }
 
-/*.line {
-  width: 200px;
-  height: 8px;
-  background-color: white;
-  margin-top: -45px;
-}*/
+@keyframes play {
+  to {
+    background-position: -30px -855px;
+  }
+}
 
 .status {
   margin-bottom: 35px;
