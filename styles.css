@@ -94,10 +94,28 @@ body {
   height: 330px;
   margin-bottom: 25px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   
 }
+
+.spriteSheet {
+  
+  width: 182px;
+  height: 136px;
+  background-position: -30px -500px;
+  background-image: url("./images/Tamago.png");
+  border-bottom: 7px solid white;
+  
+}
+
+/*.line {
+  width: 200px;
+  height: 8px;
+  background-color: white;
+  margin-top: -45px;
+}*/
 
 .status {
   margin-bottom: 35px;
