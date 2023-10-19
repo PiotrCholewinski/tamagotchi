@@ -88,15 +88,91 @@ body {
 .number {
   font-size: 40px;
 }
+
 .sprite {
   width: 330px;
   border: solid 8px #9FDCF9;
   height: 330px;
   margin-bottom: 25px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   
+}
+
+.spriteSheet {
+  
+  width: 190px;
+  height: 145px;
+  background-size: 248px 2880px;
+  background-image: url("./images/Tamago.png");
+  border-bottom: 7px solid white;
+}
+
+/* uzyj sprite sheet z większymi odstępami i klasy dla kazdego stanu (z prostą animacją dla spania, jedzenia i grania*/
+
+.standing {
+  background-position: -30px 2878px;   /* było 2447px*/
+}
+
+.sitting {
+  background-position: -30px 2651px;
+}
+
+.dead {
+  background-position: -30px 2482px;
+}
+
+.sleepy {
+  background-position: -30px 2255px;
+}
+
+.sleeping {
+  animation: sleeping 1s steps(2) infinite;
+}
+
+@keyframes sleeping {
+  from {
+    background-position: -30px 2027px;  
+  }
+  to {
+    background-position: -30px 1577px;  
+  }
+}
+
+.hungry {
+  background-position: -30px 1574px;
+}
+
+.eating {
+  animation: eating 1s steps(2) infinite;
+}
+
+@keyframes eating {
+  from {
+    background-position: -30px 1347px; 
+  }
+  to {
+    background-position: -30px 892px; 
+  }
+}
+
+.playing {
+  animation: playing 2s steps(2) infinite;
+}
+
+@keyframes playing {
+  from {
+    background-position: -35px 878px;
+  }
+  to {
+    background-position: -35px 397px;
+  }
+}
+
+.bored {
+  background-position: -30px 411px;
 }
 
 .status {
